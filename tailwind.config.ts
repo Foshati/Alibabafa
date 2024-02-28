@@ -13,8 +13,27 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      mytheme: {
+        primary: "#ff00ff",
+
+        secondary: "#ff00ff",
+
+        accent: "#00ffff",
+
+        neutral: "#ff00ff",
+
+        "base-100": "#ff00ff",
+
+        info: "#0000ff",
+
+        success: "#00ff00",
+
+        warning: "#00ff00",
+
+        error: "#ff0000",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
